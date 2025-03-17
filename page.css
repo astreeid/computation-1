@@ -1,0 +1,36 @@
+body{
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+    font-family: "Send Flowers", serif;
+    font-size: 35px;
+    color: rgb(62, 109, 69);
+    line-height: 200px;
+    text-align: center;
+}
+
+p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -3%);
+    font-family: "League Spartan", serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    padding: 100px;
+    color: rgb(226, 217, 147);
+    filter: blur(10px);
+
+}
+
+
+p:hover{
+    color: rgb(132, 142, 77);
+    filter: blur(0px);
+    transition: all 900ms;
+}

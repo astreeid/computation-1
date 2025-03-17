@@ -1,0 +1,239 @@
+body{
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+    font-family: "Send Flowers", serif;
+    font-size: 55px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.subtitle {    
+    height: 500px;
+    width: 300px;
+    margin: 30;
+    font-family: "League Spartan", serif;
+    font-size: 20px;
+    line-height: 50px;
+    color: rgb(62, 109, 69);
+    padding: 95px;
+    transition: all 500ms;
+}
+
+.hide {
+    opacity:0;
+}
+
+.button {
+    font-family: "League Spartan", serif;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: rgb(255, 224, 229);
+    color: rgb(62, 109, 69);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.modal {
+    font-family: "League Spartan", serif;
+    font-size: 15px;
+    color: rgb(62, 109, 69);
+    line-height: 20px;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background: rgb(255, 224, 229);
+    padding: 20px;
+    top: 11%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+img {
+    filter: blur(11px);
+}
+
+img:hover {
+    filter: blur(0px);
+}
+
+.apple{
+    width: 18%;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 58%;
+    transition: all 500ms;
+}
+.apple:hover{
+    width: 20%;
+    margin: auto;
+}
+
+.blueberries{
+    width: 23%;
+    margin: auto;
+    position: absolute;
+    top: 37%;
+    left: 60%;
+    transition: all 500ms;
+}
+
+.melon{
+    width: 22%;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    transition: all 500ms;
+}
+
+.cam{
+    width: 15%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transition: all 500ms;
+}
+.cam:hover{
+    width: 17%;
+    margin: auto;
+}
+
+.fish{
+    width: 20%;
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    transition: all 500ms;
+}
+
+.grass{
+    width: 18%;
+    margin: auto;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transition: all 500ms;
+}
+.grass:hover{
+    width: 20%;
+    margin: auto;
+}
+
+.plant{
+    width: 10%;
+    margin: auto;
+    position: absolute;
+    top: 81%;
+    left: 20%;
+    transition: all 500ms;
+}
+.plant:hover{
+    width: 12%;
+    margin: auto;
+}
+
+.bird{
+    width: 15%;
+    margin: auto;
+    position: absolute;
+    top: 75%;
+    right: 4%;
+    transition: all 500ms;
+}
+.bird:hover{
+    width: 17%;
+    margin: auto;
+}
+
+.pa{
+    width: 15%;
+    margin: auto;
+    position: absolute;
+    top: 102%;
+    left: 17%;
+    transition: all 500ms;
+}
+
+.pearl{
+    width: 27%;
+    margin: auto;
+    position: absolute;
+    top: 99%;
+    right: 3%;
+    transition: all 500ms;
+}
+.pearl:hover{
+    width: 29%;
+    margin: auto;
+}
+
+.shell{
+    width: 14%;
+    margin: auto;
+    position: absolute;
+    top: 86%;
+    left: 5%;
+    transition: all 500ms;
+}
+
+.wax{
+    width: 15%;
+    margin: auto;
+    position: absolute;
+    top: 75%;
+    right: 12%;
+    transition: all 500ms;
+}
+
+.starfish{
+    width: 13%;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    transition: all 500ms;
+}
+.starfish:hover{
+    width: 15%;
+    margin: auto;
+}
+
+.turtle{
+    width: 13%;
+    margin: auto;
+    position: absolute;
+    top: 62%;
+    left: 30%;
+    transition: all 500ms;
+}
+.turtle:hover{
+    width: 15%;
+    margin: auto;
+}
+
